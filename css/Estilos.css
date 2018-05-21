@@ -1,0 +1,175 @@
+body {
+	background: white;
+	color: black;
+	font-family: verdana;
+	
+}
+
+h1{
+	margin: 0;
+}
+
+div#footer{
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+	color: yellow;
+}
+
+
+article h1{
+	
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 15px;
+	color:black;
+	text-align: justify;
+}
+
+article#textsobre{
+	color:black;
+	margin-left: -155px;
+	width: 30%;
+	
+	padding: 5px;
+	margin: 10px 10px 10px 10px;
+}
+
+header {
+	padding-top: 2px;
+	padding-bottom: 10px;
+	height: 130px;
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+
+header h1{
+	font-size: 35px;
+}
+
+nav{
+	padding:0;
+	margin: 0;
+	height: 60px;
+	width: 960px;
+	margin-bottom: 16px;
+	border-bottom: 2px solid #000;
+	color: yellow;
+}
+
+
+
+nav li{
+
+	float: left;
+	list-style: none;
+	font-weight: bold;
+	padding: 5px;
+	margin: 0;
+}
+
+nav a{
+	
+	height: 30px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 6px;
+	margin: 0;
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+footer{
+	font-size: 12px;
+	text-align: center;
+}
+
+article a{
+	text-decoration: none;
+}
+
+article a:hover{
+	color: orange;
+}
+
+a#home{
+	color: blue;
+}
+
+a#home:hover{
+	color: white;
+	background-color: blue;
+	transition: 0.7s;
+}
+a#sobre{
+	color: blue;
+}
+
+a#sobre:hover{
+	color: white;
+	background-color: blue;
+	transition: 0.7s;
+}
+
+a#historia{
+	color: blue;
+}
+
+a#historia:hover{
+	color: white;
+	background-color: blue;
+	transition: 0.7s;
+}
+
+a#contato{
+	color: blue;
+}
+
+a#contato:hover{
+	color: white;
+	background-color: blue;
+	transition: 0.7s;
+}
+h3{
+	color: black;
+	font-family:arial;
+	font-size: 20px;
+	
+	
+}
+table#tabela{
+	color: black;
+	font-family:arial;
+	font-size: 15px;
+	border: 1px solid #200200200;
+	border-spacing: -3px;
+	padding: 5px;
+		
+}
+table#tabela1{
+	color: black;
+	font-family:arial;
+	font-size: 15px;
+		
+}
+table#tabela2{
+	color: black;
+	font-family:arial;
+	font-size: 15px;
+		
+}
+td#colorenviar button{
+	font-family:Arial;
+	font-size: 80%;
+	color: black;
+	position: relative;
+	padding:5px 10px;
+	top:10px;
+	right:10px;
+    width:80px; 
+	background-color:#C0C0C0;
+
+}
