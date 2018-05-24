@@ -2,6 +2,7 @@ body {
 	background: white;
 	color: black;
 	font-family: verdana;
+	text-align: justify;
 	
 }
 
@@ -17,20 +18,25 @@ div#footer{
 }
 
 
-article h1{
+article#textprincipal{
 	
 	margin-bottom: 20px;
 	margin-top: 0;
 	font-size: 15px;
 	color:black;
 	text-align: justify;
+	
+}
+span{
+	font-weight:bold;
+	text-decoration: underline;
 }
 
 article#textsobre{
 	color:black;
 	margin-left: -155px;
 	width: 30%;
-	
+	font-weight: bold;
 	padding: 5px;
 	margin: 10px 10px 10px 10px;
 }
@@ -47,15 +53,20 @@ header {
 header h1{
 	font-size: 35px;
 }
+header h2{
+	font-size: 25px;
+	color: white;
+	font-weight: 20px;
+}
 
 nav{
 	padding:0;
 	margin: 0;
 	height: 60px;
-	width: 960px;
-	margin-bottom: 16px;
-	border-bottom: 2px solid #000;
-	color: yellow;
+	width: 1340px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #000;
+	
 }
 
 
@@ -78,7 +89,7 @@ nav a{
 	background-color: white;
 	padding: 6px;
 	margin: 0;
-	border-radius: 5px 5px 5px 5px;
+	border-radius: 0px 0px 0px 0px;
 }
 
 
@@ -143,22 +154,24 @@ h3{
 table#tabela{
 	color: black;
 	font-family:arial;
-	font-size: 15px;
-	border: 1px solid #200200200;
-	border-spacing: -3px;
-	padding: 5px;
-		
+	font-size: 20px;
+			
 }
 table#tabela1{
 	color: black;
 	font-family:arial;
-	font-size: 15px;
+	font-size: 20px;
+	top:10px;
+	right:10px;
+    width:80px;
 		
 }
 table#tabela2{
 	color: black;
 	font-family:arial;
 	font-size: 15px;
+	
+	
 		
 }
 td#colorenviar button{
