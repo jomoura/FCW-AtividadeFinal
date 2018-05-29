@@ -3,7 +3,12 @@ body {
 	color: black;
 	font-family: verdana;
 	text-align: justify;
+	background-color: #e5e4e2;
 	
+	
+}
+body#bgcolor{
+	background: #FF0000
 }
 
 h1{
@@ -27,18 +32,43 @@ article#textprincipal{
 	text-align: justify;
 	
 }
-span{
-	font-weight:bold;
-	text-decoration: underline;
-}
 
 article#textsobre{
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 15px;
 	color:black;
+	text-align: justify;
+}
+
+div#imgpantanal{
 	margin-left: -155px;
 	width: 30%;
-	font-weight: bold;
+	border: thin solid;
 	padding: 5px;
 	margin: 10px 10px 10px 10px;
+	margin-left: auto;
+    margin-right: auto;
+	position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;	
+}
+div#imgpantanal2{
+	margin-left: -155px;
+	width: 30%;
+	border: thin solid;
+	padding: 5px;
+	margin: 10px 10px 10px 10px;
+	margin-left: auto;
+    margin-right: auto;
+	position:relative;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+	
 }
 
 header {
@@ -96,6 +126,9 @@ nav a{
 footer{
 	font-size: 12px;
 	text-align: center;
+	font-weight: bold;
+	background-color: white;
+	
 }
 
 article a{
@@ -149,12 +182,11 @@ h3{
 	font-family:arial;
 	font-size: 20px;
 	
-	
 }
 table#tabela{
 	color: black;
 	font-family:arial;
-	font-size: 20px;
+	font-size: 15px;
 			
 }
 table#tabela1{
