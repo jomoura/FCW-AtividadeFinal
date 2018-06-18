@@ -9,21 +9,13 @@ body {
 	margin-left:20px;
 	
 	
-}
-body#bgcolor{
-	background: #FF0000
+	
 }
 
 h1{
 	margin: 0;
 }
 
-div#footer{
-	width: 960px;
-	background-color: white;
-	margin: 0 auto;
-	color: yellow;
-}
 
 
 article#textprincipal{
@@ -33,6 +25,8 @@ article#textprincipal{
 	font-size: 15px;
 	color:black;
 	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
 	
 }
 
@@ -42,6 +36,8 @@ article#textsobre{
 	font-size: 15px;
 	color:black;
 	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
 	
 }
 
@@ -93,22 +89,14 @@ div#imgpantanal3{
 
 
 
-header {
+header#banner {
 	padding-top: 2px;
 	padding-bottom: 10px;
-	height: 130px;
-	text-align: center;
-	background-color: gray;
-	color: white;
-}
-
-header h1{
-	font-size: 35px;
-}
-header h2{
-	font-size: 25px;
-	color: white;
-	font-weight: 20px;
+	border: thin solid;
+	position:relative;
+	margin: 10px 10px 10px 10px;
+	
+	
 }
 
 nav{
@@ -153,41 +141,34 @@ footer{
 	
 }
 
-article a{
-	text-decoration: none;
-}
-
-article a:hover{
-	color: orange;
-}
 
 a#home{
-	color: blue;
+	color: black;
 }
 
 a#home:hover{
-	color: white;
-	background-color: blue;
+	color: black;
+	background-color: #e5e4e2;
 	transition: 0.7s;
 }
 a#sobre{
-	color: blue;
+	color: black;
 }
 
 a#sobre:hover{
-	color: white;
-	background-color: blue;
+	color: black;
+	background-color: #e5e4e2;
 	transition: 0.7s;
 }
 
 
 a#contato{
-	color: blue;
+	color: black;
 }
 
 a#contato:hover{
-	color: white;
-	background-color: blue;
+	color: black;
+	background-color: #e5e4e2;
 	transition: 0.7s;
 }
 h3{
@@ -196,6 +177,8 @@ h3{
 	font-size: 20px;
 	font-weight:bold;
 	text-align: left;
+	margin-left:150px;
+	
 	
 }
 caption{
@@ -210,23 +193,18 @@ table#tabela{
 	font-family:arial;
 	font-size: 15px;
 	text-align: left;
+	margin-left:150px;
+	margin-right:150px;
 			
 }
+
 table#tabela1{
-	color: black;
-	font-family:arial;
-	font-size: 20px;
-	top:10px;
-	right:10px;
-    width:80px;
-	text-align: left;
-		
-}
-table#tabela2{
 	color: black;
 	font-family:arial;
 	font-size: 15px;
 	text-align: left;
+	margin-left:150px;
+	margin-right:150px;
 	
 		
 }
