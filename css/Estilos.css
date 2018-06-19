@@ -47,7 +47,11 @@ header#banner {
 	padding-bottom: 10px;
 	border: thin solid;
 	position:relative;
-	margin: 10px 10px 10px 10px;	
+	margin: 10px 10px 10px 10px;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  color:black;
+  text-decoration:none; 
 }
 nav{
 	padding:0;
@@ -58,7 +62,6 @@ nav{
 	border-bottom: 1px solid #000;	
 }
 nav li{
-
 	float: left;
 	list-style: none;
 	font-weight: bold;
@@ -66,7 +69,6 @@ nav li{
 	margin: 0;
 }
 nav a{
-	
 	height: 30px;
 	display: block;
 	text-decoration: none;
@@ -82,7 +84,6 @@ footer{
 	font-weight: bold;
 	background-color: white;
 	padding: 2px;
-	
 }
 a#home{
 	color: black;
@@ -95,7 +96,6 @@ a#home:hover{
 a#sobre{
 	color: black;
 }
-
 a#sobre:hover{
 	color: black;
 	background-color: #e5e4e2;
@@ -121,8 +121,7 @@ caption{
 	color: black;
 	font-family:arial;
 	font-size: 15px;
-	text-align: left;
-	
+	text-align: left;	
 }
 /* 
 CSS Pagina Contatos 
@@ -140,6 +139,7 @@ table.telefone{
 	background-color: #edf5ff;
 	margin-left: auto;
     margin-right: auto;
+	margin-bottom: 20px;
 }
 table.telefone td, table.telefone th{
 	border: 1px solid #AAAAAA;
@@ -159,9 +159,10 @@ table.faleconosco{
 	text-align: left;
 	margin-left: auto;
     margin-right: auto;
+	margin-bottom: 20px;
 }
 table.faleconosco thead th{
-	font-size: 18px;
+	font-size: 28px;
 	font-weight:bold;
 	color: black;
 	text-align:center;
