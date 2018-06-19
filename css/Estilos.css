@@ -196,14 +196,14 @@ table.telefone{
 	font-family:Arial, Helvetica, sans-serif ;
 	font-size: 18px;
 	text-align: center;
-	margin-left:150px;
-	margin-right:150px;
 	border-collapse: collapse;
     width: 50em;
 	border: 1px solid #666;
 	padding: 5px 10px;
 	height: 150px;
 	background-color: #edf5ff;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 table.telefone td, table.telefone th{
@@ -216,18 +216,25 @@ table.telefone thead th{
 	font-weight:bold;
 	color: black;
 	text-align:center;
+	text-decoration: underline;
 	
 }
 
-table#tabela1{
+table.faleconosco{
 	color: black;
 	font-family:arial;
-	font-size: 15px;
+	font-size: 150px;
 	text-align: left;
-	margin-left:150px;
-	margin-right:150px;
-	
-		
+	margin-left: auto;
+    margin-right: auto;
+}
+
+table.faleconosco thead th{
+	font-size: 18px;
+	font-weight:bold;
+	color: black;
+	text-align:center;
+	text-decoration: underline;
 }
 
 td#colorenviar button{
