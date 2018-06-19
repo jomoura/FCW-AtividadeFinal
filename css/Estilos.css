@@ -2,7 +2,6 @@ body {
 	background: white;
 	color: black;
 	font-family: verdana;
-	text-align: justify;
 	background-color: #e5e4e2;
 	text-align: justify;
 	text-align: center;
@@ -11,12 +10,6 @@ body {
 	
 	
 }
-
-h1{
-	margin: 0;
-}
-
-
 
 article#textprincipal{
 	
@@ -31,60 +24,34 @@ article#textprincipal{
 }
 
 article#textsobre{
-	margin-bottom: 20px;
-	margin-top: 0;
+	margin-bottom: 2px;
 	font-size: 15px;
 	color:black;
 	text-align: justify;
 	margin-left:150px;
 	margin-right:150px;
+	text-align: justify;
+	margin-top:20px;
+}
+h3.titulofoto{
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 15px;
+	text-align: center;
+	margin-top:-20px;
+	
+	
 	
 }
-
 div#imgpantanal{
-	margin-left: -155px;
+
 	width: 30%;
 	border: thin solid;
 	padding: 5px;
-	margin: 10px 10px 10px 10px;
-	margin-left: auto;
-    margin-right: auto;
 	position:relative;
-    top:50%;
-    left:50%;
-    margin-top:-50px;
-    margin-left:-50px;	
-}
-div#imgpantanal2{
-	margin-left: -155px;
-	width: 20%;
-	border: thin solid;
-	padding: 5px;
-	margin: 10px 10px 10px 10px;
-	margin-left: auto;
-    margin-right: auto;
-	position:relative;
-    top:50%;
-    left:50%;
     margin-top:-50px;
     margin-left:-50px;
-	
-}
-div#imgpantanal3{
-	margin-left: -155px;
-	width: 20%;
-	border: thin solid;
-	padding: 5px;
-	margin: 10px 10px 10px 10px;
-	margin-left: auto;
-    margin-right: auto;
-	position:relative;
-    top:50%;
-    left:50%;
-    margin-top:-50px;
-    margin-left:-50px;
-	
-	
+	text-align: center;
 }
 
 
@@ -138,6 +105,7 @@ footer{
 	text-align: center;
 	font-weight: bold;
 	background-color: white;
+	padding: 2px;
 	
 }
 
