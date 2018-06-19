@@ -22,47 +22,52 @@
 	
 	
 			<br>
-		<table cellspacing="0" border="1" width="200" id="tabela">
-			<tr>
-				<td colspan="2" align="center">TELEFONES PARA CONTATO</td>
-			</tr>
-			<tr>
-				<td rowspan="2" align="center">Reservas</td> <td align="center">(65) 3391 - 1001</td>
-			</tr>
-			<tr>
-				<td align="center">(65) 3391 - 1002</td>
-			</tr>
-				<td rowspan="2" align="center">Informações</td> <td align="center">(65) 3391 - 1003</td>
-			</tr>
-			<tr>
-				<td align="center">(65) 3391 - 1004</td>
-			</tr>
-		</table><br>
-			<h3> Fale Conosco</h3>	
-		<form>
-			<table cellspacing="0" id="tabela1">
-				<tr><td><label for="nome"> Nome: </label></td></tr>
-				<tr><td><input type="text" id="Nome" name="nome" size="40" maxlength="40"></td></tr>
-				<tr><td><label for="nome"> Telefone: </label></td></tr>
-				<tr><td><input type="text" id="Telefone" name="telefone" size="40" maxlength="40"></td>
-				</tr><td><label for="Email"> Email: </label><br></td> 
-				<tr><td><input type="text" id="Email" name="email" size="40" maxlength="40"></td></tr>
-				<tr><td><br><label for="nome"> Atendimento:</label></td></tr>
-				<tr><td><input type="radio" id="Duvida" name="duvida"/> Duvida<input type="radio" id="Duvida" name="duvida"/> Reclamação
-				<input type="radio" id="Duvida" name="duvida"/> Sugestão</td></tr>
-				<tr><td><br><label for="nome"> Deseja receber a resposta:</label></td></tr>
-				<tr><td><input type="checkbox" name="resposta" id="Resposta"/> Email<input type="checkbox" name="resposta" id="Resposta"/>
-				Mensagem no Celular</td></tr>
-				<tr><td><br><label for="Mensagem"> Mensagem:</label></td></tr>
-				<tr><td><label name=mensagem><textarea id="Mensagem" name=mytextarea cols=35 rows=6></textarea></td></tr>
-				<tr><td id="colorenviar"><button type="submit" value="submit">Enviar > </button><button type="reset"  value="reset"> Apagar > </button></td></tr>
-			</table>
-		</form>
-		
-			<footer>
-				<h5><br>&reg; Todos os direitos reservados</h5>
-			</footer>
-
+			<table border="1px" cellpadding="5px" cellspacing="0" class="telefone">
+				<thead>
+					<tr>
+						<th colspan="2">TELEFONES PARA CONTATO</th>
+					</tr>
+				</thead>
+				<tr>
+					<td rowspan="2" align="center">Reservas</td> <td align="center">(65) 3391 - 1001</td>
+				</tr>
+				<tr>
+					<td align="center">(65) 3391 - 1002</td>
+				</tr>
+					<td rowspan="2" align="center">Informações</td> <td align="center">(65) 3391 - 1003</td>
+				</tr>
+				<tr>
+					<td align="center">(65) 3391 - 1004</td>
+				</tr>
+			</table><br>
+			
+			
+						
+				<h3> Fale Conosco</h3>	
+			<form>
+				<table cellspacing="0" id="tabela1">
+					<tr><td><label for="nome"> Nome: </label></td></tr>
+					<tr><td><input type="text" id="Nome" name="nome" size="40" maxlength="40"></td></tr>
+					<tr><td><label for="nome"> Telefone: </label></td></tr>
+					<tr><td><input type="text" id="Telefone" name="telefone" size="40" maxlength="40"></td>
+					</tr><td><label for="Email"> Email: </label><br></td> 
+					<tr><td><input type="email" id="Email" name="email" size="40" maxlength="40"></td></tr>
+					<tr><td><br><label for="nome"> Atendimento:</label></td></tr>
+					<tr><td><input type="radio" id="Duvida" name="duvida"/> Duvida<input type="radio" id="Duvida" name="duvida"/> Reclamação
+					<input type="radio" id="Duvida" name="duvida"/> Sugestão</td></tr>
+					<tr><td><br><label for="nome"> Deseja receber a resposta:</label></td></tr>
+					<tr><td><input type="checkbox" name="resposta" id="Resposta"/> Email<input type="checkbox" name="resposta" id="Resposta"/>
+					Mensagem no Celular</td></tr>
+					<tr><td><br><label for="Mensagem"> Mensagem:</label></td></tr>
+					<tr><td><label name=mensagem><textarea id="Mensagem" name=mytextarea cols=35 rows=6></textarea></td></tr>
+					<tr><td id="colorenviar"><button type="button" value="submit">Enviar > </button><button type="reset"  value="reset"> Apagar > </button></td></tr>
+				</table>
+			</form>
+			
+				<footer>
+					<h5><br>&reg; Todos os direitos reservados</h5>
+				</footer>
+	
 		</div>
 	</body>
 </html>
