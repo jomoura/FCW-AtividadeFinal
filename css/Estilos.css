@@ -6,13 +6,8 @@ body {
 	text-align: justify;
 	text-align: center;
 	margin-left:20px;
-	
-	
-	
 }
-
 article#textprincipal{
-	
 	margin-bottom: 20px;
 	margin-top: 0;
 	font-size: 15px;
@@ -20,9 +15,7 @@ article#textprincipal{
 	text-align: justify;
 	margin-left:150px;
 	margin-right:150px;
-	
 }
-
 article#textsobre{
 	margin-bottom: 2px;
 	font-size: 15px;
@@ -37,13 +30,9 @@ h3.titulofoto{
     margin-right: auto;
 	font-size: 15px;
 	text-align: center;
-	margin-top:-20px;
-	
-	
-	
+	margin-top:-20px;	
 }
 div#imgpantanal{
-
 	width: 30%;
 	border: thin solid;
 	padding: 5px;
@@ -52,31 +41,21 @@ div#imgpantanal{
     margin-left:-50px;
 	text-align: center;
 }
-
-
-
 header#banner {
 	padding-top: 2px;
 	padding-bottom: 10px;
 	border: thin solid;
 	position:relative;
-	margin: 10px 10px 10px 10px;
-	
-	
+	margin: 10px 10px 10px 10px;	
 }
-
 nav{
 	padding:0;
 	margin: 0;
 	height: 60px;
 	width: 1340px;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #000;
-	
+	border-bottom: 1px solid #000;	
 }
-
-
-
 nav li{
 
 	float: left;
@@ -85,7 +64,6 @@ nav li{
 	padding: 5px;
 	margin: 0;
 }
-
 nav a{
 	
 	height: 30px;
@@ -97,8 +75,6 @@ nav a{
 	margin: 0;
 	border-radius: 0px 0px 0px 0px;
 }
-
-
 footer{
 	font-size: 12px;
 	text-align: center;
@@ -107,12 +83,9 @@ footer{
 	padding: 2px;
 	
 }
-
-
 a#home{
 	color: black;
 }
-
 a#home:hover{
 	color: black;
 	background-color: #e5e4e2;
@@ -127,12 +100,9 @@ a#sobre:hover{
 	background-color: #e5e4e2;
 	transition: 0.7s;
 }
-
-
 a#contato{
 	color: black;
 }
-
 a#contato:hover{
 	color: black;
 	background-color: #e5e4e2;
@@ -144,9 +114,7 @@ h3{
 	font-size: 20px;
 	font-weight:bold;
 	text-align: left;
-	margin-left:150px;
-	
-	
+	margin-left:150px;	
 }
 caption{
 	color: black;
@@ -163,40 +131,40 @@ table.telefone{
 	font-family:Arial, Helvetica, sans-serif ;
 	font-size: 18px;
 	text-align: center;
-	margin-left:150px;
-	margin-right:150px;
 	border-collapse: collapse;
     width: 50em;
 	border: 1px solid #666;
 	padding: 5px 10px;
 	height: 150px;
 	background-color: #edf5ff;
+	margin-left: auto;
+    margin-right: auto;
 }
-
 table.telefone td, table.telefone th{
 	border: 1px solid #AAAAAA;
 	padding: 5px 2px;
 }
-
 table.telefone thead th{
 	font-size: 18px;
 	font-weight:bold;
 	color: black;
 	text-align:center;
-	
+	text-decoration: underline;	
 }
-
-table#tabela1{
+table.faleconosco{
 	color: black;
 	font-family:arial;
 	font-size: 15px;
 	text-align: left;
-	margin-left:150px;
-	margin-right:150px;
-	
-		
+	margin-left: auto;
+    margin-right: auto;
 }
-
+table.faleconosco thead th{
+	font-size: 18px;
+	font-weight:bold;
+	color: black;
+	text-align:center;
+}
 td#colorenviar button{
 	font-family:Arial;
 	font-size: 80%;
@@ -208,8 +176,3 @@ td#colorenviar button{
     width:80px; 
 	background-color:#C0C0C0;
 }
-
-
-
-
-
