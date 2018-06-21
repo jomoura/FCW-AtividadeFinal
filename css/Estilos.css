@@ -1,3 +1,4 @@
+/* Estilo comum a todas as páginas */ 
 body {
 	background: white;
 	color: black;
@@ -7,40 +8,6 @@ body {
 	text-align: justify;
 	text-align: center;
 	margin-left:20px;
-}
-article#textprincipal{
-	margin-bottom: 20px;
-	margin-top: 0;
-	font-size: 15px;
-	color:black;
-	text-align: justify;
-	margin-left:150px;
-	margin-right:150px;
-}
-article#textsobre{
-	margin-bottom: 2px;
-	font-size: 15px;
-	color:black;
-	text-align: justify;
-	margin-left:150px;
-	margin-right:150px;
-	margin-top:20px;
-}
-h3.titulofoto{
-	margin-left: auto;
-    margin-right: auto;
-	font-size: 15px;
-	text-align: center;
-	margin-top:-20px;	
-}
-div#imgpantanal{
-	width: 30%;
-	border: thin solid;
-	padding: 5px;
-	position:relative;
-    margin-top:-50px;
-    margin-left:-50px;
-	text-align: center;
 }
 header#banner {
 	padding-top: 2px;
@@ -78,6 +45,42 @@ nav a{
 	margin: 0;
 	border-radius: 0px 0px 0px 0px;
 }
+a.home{
+	color: black;
+}
+a.home:hover{
+	color: black;
+	background-color: #e5e4e2;
+	transition: 0.7s;
+}
+a.sobre{
+	color: black;
+}
+a.sobre:hover{
+	color: black;
+	background-color: #e5e4e2;
+	transition: 0.7s;
+}
+a.contato{
+	color: black;
+}
+a.contato:hover{
+	color: black;
+	background-color: #e5e4e2;
+	transition: 0.7s;
+}
+article{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 15px;
+	color:black;
+	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
+}
+p{
+	line-height: 150%
+}
 footer{
 	font-size: 12px;
 	text-align: center;
@@ -85,36 +88,12 @@ footer{
 	background-color: white;
 	padding: 2px;
 }
-a#home{
-	color: black;
-}
-a#home:hover{
-	color: black;
-	background-color: #e5e4e2;
-	transition: 0.7s;
-}
-a#sobre{
-	color: black;
-}
-a#sobre:hover{
-	color: black;
-	background-color: #e5e4e2;
-	transition: 0.7s;
-}
-a#contato{
-	color: black;
-}
-a#contato:hover{
-	color: black;
-	background-color: #e5e4e2;
-	transition: 0.7s;
-}
 h3{
 	color: black;
 	font-family:arial;
 	font-size: 20px;
 	font-weight:bold;
-	text-align: left;
+	text-align: center;
 	margin-left:150px;	
 }
 h4{
@@ -125,15 +104,29 @@ h4{
 	text-align: left;
 	margin-left:150px;	
 }
-caption{
-	color: black;
-	font-family:arial;
+
+/* Estilo página principal */
+
+
+/* Estilo página Sobre */
+h3.titulofoto{
+	margin-left: auto;
+    margin-right: auto;
 	font-size: 15px;
-	text-align: left;	
+	text-align: center;
+	margin-top:-20px;	
 }
-/* 
-CSS Pagina Contatos 
-*/
+div#imgpantanal{
+	width: 30%;
+	border: thin solid;
+	padding: 5px;
+	position:relative;
+    margin-top:-50px;
+    margin-left:-50px;
+	text-align: center;
+}
+
+/* Estilo página Contato */
 table.telefone{
 	color: black;
 	font-family:Arial, Helvetica, sans-serif ;
