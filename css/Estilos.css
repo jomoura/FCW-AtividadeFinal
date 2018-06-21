@@ -9,6 +9,47 @@ body {
 	text-align: center;
 	margin-left:20px;
 }
+<<<<<<< HEAD
+=======
+p{
+	line-height:150%;
+}
+article#textprincipal{
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 15px;
+	color:black;
+	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
+}
+article#textsobre{
+	margin-bottom: 2px;
+	font-size: 15px;
+	color:black;
+	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
+	margin-top:20px;
+	
+}
+h3.titulofoto{
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 15px;
+	text-align: center;
+	margin-top:-20px;	
+}
+div#imgpantanal{
+	width: 30%;
+	border: thin solid;
+	padding: 5px;
+	position:relative;
+    margin-top:-50px;
+    margin-left:-50px;
+	text-align: center;
+}
+>>>>>>> 9f64a73c82a44996d491b5e1c9b4e4da2cf48569
 header#banner {
 	padding-top: 2px;
 	padding-bottom: 10px;
