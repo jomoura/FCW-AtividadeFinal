@@ -13,16 +13,13 @@
 			</header>
 			<nav>
 				<ul>
-					<li><a href="Principal.html" class="home">Home</a></li>
-					<li><a href="sobre.html" class="sobre">Sobre</a></li>					
-					<li><a href="contato.html" class="contato">Contato</a></li>
+					<li><a href="Principal.html">Home</a></li>
+					<li><a href="Sobre.html">Sobre</a></li>					
+					<li><a href="Contato.html">Contato</a></li>
 				</ul>
 			</nav>
 			
-	
-	
-			<br>
-			<table border="1px" cellpadding="5px" cellspacing="0" class="telefone">
+				<table border="1px" cellpadding="5px" cellspacing="0" class="telefone">
 				<thead>
 					<tr>
 						<th colspan="2">TELEFONES PARA CONTATO</th>
@@ -43,28 +40,28 @@
 			
 			
 						
-			<form method=post action="script.pl">
+			<form action="contato.php" method="post">
 				<table cellspacing="0" class="faleconosco">
 					<thead>
 						<tr>
 							<th>Fale Conosco</th>
 						</tr>
 					</thead>
-					<tr><td><label for="nome"> Nome: </label></td></tr>
-					<tr><td><input type="text" id="Nome" name="nome" size="40" maxlength="40"></td></tr>
+					<tr><td><label for="INome"> Nome: </label></td></tr>
+					<tr><td><input type="text" placeholder="Digite seu nome" id="INome" name="nome" size="40" maxlength="40"></td></tr>
 					<tr><td><label for="nome"> Telefone: </label></td></tr>
-					<tr><td><input type="text" id="Telefone" name="telefone" size="40" maxlength="40"></td>
+					<tr><td><input type="text" placeholder="Digite seu telefone" id="ITelefone" name="telefone" size="40" maxlength="40"></td>
 					</tr><td><label for="Email"> Email: </label><br></td> 
-					<tr><td><input type="email" id="Email" name="email" size="40" maxlength="40"></td></tr>
+					<tr><td><input type="email" id="IEmail" name="email" size="40" maxlength="40"></td></tr>
 					<tr><td><br><label for="nome"> Atendimento:</label></td></tr>
-					<tr><td><input type="radio" id="Duvida" name="duvida"/> Duvida<input type="radio" id="Duvida" name="duvida"/> Reclamação
-					<input type="radio" id="Duvida" name="duvida"/> Sugestão</td></tr>
+					<tr><td><input type="radio" id="IDuvida" name="duvida"/> Duvida<input type="radio" id="Duvida" name="duvida"/> Reclamação
+					<input type="radio" id="IDuvida" name="duvida"/> Sugestão</td></tr>
 					<tr><td><br><label for="nome"> Deseja receber a resposta:</label></td></tr>
-					<tr><td><input type="checkbox" name="resposta" id="Resposta"/> Email<input type="checkbox" name="resposta" id="Resposta"/>
+					<tr><td><input type="checkbox" name="resposta" id="IResposta"/> Email<input type="checkbox" name="resposta" id="Resposta"/>
 					Mensagem no Celular</td></tr>
 					<tr><td><br><label for="Mensagem"> Mensagem:</label></td></tr>
-					<tr><td><label name=mensagem><textarea id="Mensagem" name=mytextarea cols=35 rows=6></textarea></td></tr>
-					<tr><td id="colorenviar"><button type="submit" value="submit">Enviar > </button><button type="reset"  value="reset"> Apagar > </button></td></tr>
+					<tr><td><label name=mensagem><textarea id="IMensagem" name=mytextarea cols=35 rows=6></textarea></td></tr>
+					<tr><td id="Icolorenviar"><button type="submit" value="submit">Enviar > </button><button type="reset"  value="reset"> Apagar > </button></td></tr>
 				</table>
 			</form>
 			
