@@ -41,6 +41,44 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 p{
 	line-height:150%;
 }
+<<<<<<< HEAD
+=======
+article#textprincipal{
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-size: 15px;
+	color:black;
+	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
+}
+/*article#textsobre{
+	margin-bottom: 2px;
+	font-size: 15px;
+	color:black;
+	text-align: justify;
+	margin-left:150px;
+	margin-right:150px;
+	margin-top:20px;
+	
+}*/
+h3.titulofoto{
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 15px;
+	text-align: center;
+	margin-top:-20px;	
+}
+div#imgpantanal{
+	width: 30%;
+	border: thin solid;
+	padding: 5px;
+	position:relative;
+    margin-top:-50px;
+    margin-left:-50px;
+	text-align: center;
+}
+>>>>>>> 24e68c19164ad7d40888647bd833ea4a1060031c
 #banner{
 	max-width:200px;
     max-height:150px;
