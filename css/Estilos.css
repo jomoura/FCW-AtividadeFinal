@@ -83,22 +83,15 @@ footer{
 
 /* Estilo página principal */
 
+p.negrito {
+font-family: Georgia, serif;
+font-weight: 700;
+
+}
 div.capa{
 	text-align: center;
-	max-width:1400px; 
-	max-height:800px; 
-	width: auto; 
-	height: auto; 
-	margin:0 auto; 
-	overflow:hidden; 
-	margin-top:20px; 
-	margin-bottom: 20px
+
 	
-	
-}
-imgcapa{
-	
-}
 
 /* Estilo página Sobre */
 h3.titulofoto{
