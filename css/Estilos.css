@@ -1,12 +1,12 @@
 /* Estilo comum a todas as páginas */ 
 body {
 	font-family: Helvetica, sans-serif;
-	background: #9C9C9C;
+	background: #696969;
 }
 #interface{
 	width: 940px;
 	margin: auto;
-	background: #54FF9F;
+	background: #DCDCDC; 
 	padding: 10px 20px;
 }
 header{
@@ -19,7 +19,7 @@ header{
 nav ul{
 	list-style: none;
 	padding: 20px 0px 20px 10px;
-	background: grey;
+	background: green;
 }
 nav ul li{
 	display:inline-block;
@@ -38,9 +38,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   text-decoration:none; 
   cursor: default;
 }
-p{
-	line-height:150%;
-}
+
 #banner{
 	max-width:200px;
     max-height:150px;
@@ -54,15 +52,16 @@ p{
 	margin-left:-100px;
 	margin-top:2px;
 }
-
-article{
+p{
+	line-height:150%;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	font-size: 15px;
+	font-size: 18px;
 	color:black;
 	text-align: justify;
 	margin-left:50px;
 	margin-right:50px;
+	text-indent: 40px;
 }
 h3{
 	font-size: 20px;
@@ -84,6 +83,22 @@ footer{
 
 /* Estilo página principal */
 
+div.capa{
+	text-align: center;
+	max-width:1400px; 
+	max-height:800px; 
+	width: auto; 
+	height: auto; 
+	margin:0 auto; 
+	overflow:hidden; 
+	margin-top:20px; 
+	margin-bottom: 20px
+	
+	
+}
+imgcapa{
+	
+}
 
 /* Estilo página Sobre */
 h3.titulofoto{
@@ -109,9 +124,6 @@ div.imgpantanal{
 
 /* Estilo página Contato */
 table.telefone{
-	color: black;
-	font-family:Helvetica, sans-serif ;
-	font-size: 18px;
 	text-align: center;
 	border-collapse: collapse;
     width: 30em;
@@ -136,7 +148,6 @@ table.telefone thead th{
 }
 table.faleconosco{
 	color: black;
-	font-family:arial;
 	font-size: 15px;
 	text-align: left;
 	margin-left: auto;
