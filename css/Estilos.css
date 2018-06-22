@@ -1,13 +1,33 @@
 /* Estilo comum a todas as páginas */ 
 body {
-	background: white;
-	color: black;
-	font-family: verdana;
-	/*background-color: #e5e4e2;*/
-	background-color: #81F79F;
-	text-align: justify;
-	text-align: center;
-	margin-left:20px;
+	font-family: Helvetica, sans-serif;
+}
+#interface{
+	width: 940px;
+	margin: auto;
+	background: #e3e3e3;
+	padding: 10px 20px;
+}
+nav ul{
+	list-style: none;
+	padding-left: 0;
+}
+nav ul li{
+	display:inline-block;
+	margin-right: 10px;
+}
+nav a{
+	font-size: 18px;
+	color: #ff6600;
+	text-decoration:none;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  color:black;
+  text-decoration:none; 
+  cursor: crosshair;
 }
 p{
 	line-height:150%;
@@ -47,66 +67,20 @@ div#imgpantanal{
     margin-left:-50px;
 	text-align: center;
 }
-header#banner {
+#banner{
+	max-width:200px;
+    max-height:150px;
 	padding-top: 2px;
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	border: thin solid;
 	position:relative;
-	margin: 10px 10px 10px 10px;
+	margin:0 auto;
+	left:50%;
+	top:50%;
+	margin-left:-100px;
+	margin-top:-8px;
 }
-a, a:link, a:visited, a:focus, a:hover, a:active{
-  color:black;
-  text-decoration:none; 
-}
-nav{
-	padding:0;
-	margin: 0;
-	height: 60px;
-	width: 1340px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid #000;	
-}
-nav li{
-	float: left;
-	list-style: none;
-	font-weight: bold;
-	padding: 5px;
-	margin: 0;
-}
-nav a{
-	height: 30px;
-	display: block;
-	text-decoration: none;
-	color: black;
-	background-color: white;
-	padding: 6px;
-	margin: 0;
-	border-radius: 0px 0px 0px 0px;
-}
-a.home{
-	color: black;
-}
-a.home:hover{
-	color: black;
-	background-color: #e5e4e2;
-	transition: 0.7s;
-}
-a.sobre{
-	color: black;
-}
-a.sobre:hover{
-	color: black;
-	background-color: #e5e4e2;
-	transition: 0.7s;
-}
-a.contato{
-	color: black;
-}
-a.contato:hover{
-	color: black;
-	background-color: #e5e4e2;
-	transition: 0.7s;
-}
+
 article{
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -167,13 +141,13 @@ div#imgpantanal{
 /* Estilo página Contato */
 table.telefone{
 	color: black;
-	font-family:Arial, Helvetica, sans-serif ;
+	font-family:Helvetica, sans-serif ;
 	font-size: 18px;
 	text-align: center;
 	border-collapse: collapse;
     width: 50em;
 	border: 1px solid #666;
-	padding: 5px 10px;
+	padding: 1px 10px 10px 10px;
 	height: 150px;
 	background-color: #edf5ff;
 	margin-left: auto;
