@@ -1,16 +1,25 @@
 /* Estilo comum a todas as páginas */ 
 body {
 	font-family: Helvetica, sans-serif;
+	background: #9C9C9C;
 }
 #interface{
 	width: 940px;
 	margin: auto;
-	background: #e3e3e3;
+	background: #54FF9F;
 	padding: 10px 20px;
+}
+header{
+	max-width:990px;
+	padding-top: 0px;
+	position:relative;
+	margin:0 auto;
+	background: white;
 }
 nav ul{
 	list-style: none;
-	padding-left: 0;
+	padding: 20px 0px 20px 10px;
+	background: grey;
 }
 nav ul li{
 	display:inline-block;
@@ -27,45 +36,10 @@ nav a:hover{
 a, a:link, a:visited, a:focus, a:hover, a:active{
   color:black;
   text-decoration:none; 
-  cursor: crosshair;
+  cursor: default;
 }
 p{
 	line-height:150%;
-}
-article#textprincipal{
-	margin-bottom: 20px;
-	margin-top: 0;
-	font-size: 15px;
-	color:black;
-	text-align: justify;
-	margin-left:150px;
-	margin-right:150px;
-}
-article#textsobre{
-	margin-bottom: 2px;
-	font-size: 15px;
-	color:black;
-	text-align: justify;
-	margin-left:150px;
-	margin-right:150px;
-	margin-top:20px;
-	
-}
-h3.titulofoto{
-	margin-left: auto;
-    margin-right: auto;
-	font-size: 15px;
-	text-align: center;
-	margin-top:-20px;	
-}
-div#imgpantanal{
-	width: 30%;
-	border: thin solid;
-	padding: 5px;
-	position:relative;
-    margin-top:-50px;
-    margin-left:-50px;
-	text-align: center;
 }
 #banner{
 	max-width:200px;
@@ -78,7 +52,7 @@ div#imgpantanal{
 	left:50%;
 	top:50%;
 	margin-left:-100px;
-	margin-top:-8px;
+	margin-top:2px;
 }
 
 article{
@@ -87,55 +61,50 @@ article{
 	font-size: 15px;
 	color:black;
 	text-align: justify;
-	margin-left:150px;
-	margin-right:150px;
+	margin-left:50px;
+	margin-right:50px;
 }
-p{
-	line-height: 150%
+h3{
+	font-size: 20px;
+	text-align: center;
+}
+h4{
+	font-size: 18px;
+	text-align: center;
 }
 footer{
 	font-size: 12px;
 	text-align: center;
 	font-weight: bold;
 	background-color: white;
-	padding: 2px;
+	padding-top: 2px;
+	padding-bottom: 11px;
 }
-h3{
-	color: black;
-	font-family:arial;
-	font-size: 20px;
-	font-weight:bold;
-	text-align: center;
-	margin-left:150px;	
-}
-h4{
-	color: black;
-	font-family:arial;
-	font-size: 18px;
-	font-weight:bold;
-	text-align: left;
-	margin-left:150px;	
-}
+
 
 /* Estilo página principal */
 
 
 /* Estilo página Sobre */
 h3.titulofoto{
-	margin-left: auto;
-    margin-right: auto;
 	font-size: 15px;
 	text-align: center;
-	margin-top:-20px;	
+	margin-top:-5px;	
 }
-div#imgpantanal{
-	width: 30%;
-	border: thin solid;
-	padding: 5px;
-	position:relative;
-    margin-top:-50px;
-    margin-left:-50px;
+div.imgpantanal{
 	text-align: center;
+}
+#imgsobre1{
+	width: 500px;
+    height: 300px;
+	border: thin solid;
+}
+
+#imgsobre2{
+	width: 255px;
+    height:205px;
+	border: thin solid;
+	left:50%;
 }
 
 /* Estilo página Contato */
@@ -145,7 +114,7 @@ table.telefone{
 	font-size: 18px;
 	text-align: center;
 	border-collapse: collapse;
-    width: 50em;
+    width: 30em;
 	border: 1px solid #666;
 	padding: 1px 10px 10px 10px;
 	height: 150px;
@@ -180,14 +149,12 @@ table.faleconosco thead th{
 	color: black;
 	text-align:center;
 }
-td#colorenviar button{
-	font-family:Arial;
-	font-size: 80%;
-	color: black;
-	position: relative;
-	padding:5px 10px;
-	top:10px;
-	right:10px;
-    width:80px; 
-	background-color:#C0C0C0;
+td#Icolorenviar button{
+	background: #333333;
+	color: #ffffff;
+	cursor: pointer;
+	padding:10px 20px;
+	border:0;
+	margin-right: 10px;
+	margin-top: 10px;
 }
